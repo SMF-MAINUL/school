@@ -30,12 +30,23 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  curved_navigation_bar: ^1.0.6 #latest version
+  url_launcher: ^6.3.0
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
   flutter_secure_storage: ^10.0.0
 
+
+  flutter_launcher_icons: "^0.13.1" # এটি যোগ করুন
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/school_logo.png" # আপনার লোগোর পাথ
+  adaptive_icon_background: "#FFFFFF" # অ্যান্ড্রয়েডের জন্য ব্যাকগ্রাউন্ড কালার
+  adaptive_icon_foreground: "assets/logo/app_logo.png" # অ্যান্ড্রয়েড ফোরগ্রাউন্ড
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -53,6 +64,8 @@ dev_dependencies:
   intl: ^0.19.0
   pdf: ^3.10.8
   printing: ^5.11.1
+  carousel_slider: ^5.0.0
+
 
   google_maps_flutter: ^2.3.0
   url_launcher: ^6.1.10
@@ -87,6 +100,21 @@ flutter:
     - assets/road/image9.webp
     - assets/road/image10.webp
     - assets/road/kairul.jpg
+    - assets/road/mailbox.png
+    - assets/bottom/apartment_0.png
+    - assets/bottom/apartment.png
+    - assets/bottom/about.png
+    - assets/bottom/about_1.png
+    - assets/bottom/teacher.png
+    - assets/bottom/teacher_1.png
+    - assets/bottom/notice.png
+    - assets/bottom/notice_1.png
+    - assets/bottom/result.png
+    - assets/bottom/result_1.png
+    - assets/bottom/academics_1.png
+    - assets/bottom/academics.png
+    - assets/school_catagory.png
+
     
 
   #   - images/a_dot_burr.jpeg

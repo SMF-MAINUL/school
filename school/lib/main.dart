@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:tatulbaria_school_website/home/home_screen.dart';
 
 void main() {
-  runApp(const Bastob3DApp());
+  runApp(const SchoolApp());
 }
 
 
@@ -18,16 +18,15 @@ class NoScrollbarBehavior extends ScrollBehavior {
 }
 
 
-
-class Bastob3DApp extends StatelessWidget {
-  const Bastob3DApp({super.key});
+class SchoolApp extends StatelessWidget {
+  const SchoolApp({super.key});
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       scrollBehavior: NoScrollbarBehavior(), // add no scrollbar
-      title: 'BastoobShop',
+      title: 'School',
 
       // ✅ GLOBAL TEXT SCALE CONTROL (BIG COMPANY STANDARD)
       builder: (context, child) {
@@ -97,6 +96,7 @@ class Bastob3DApp extends StatelessWidget {
       ),
 
       home: const HomeScreen(),
+      
     );
   }
 }
